@@ -1,74 +1,80 @@
-body{
-    font-family: 'Hanken Grotesk', sans-serif;
-    font-size : 18px;
-    background-color: rgb(255, 235, 235);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 18px;
+  background-color: rgb(255, 235, 235);
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-    background-color: hsl(221, 100%, 96%);
-    width: 600px;
-    height: 400px;
-    border-radius: 25px;
-    box-shadow: 1px 2px 3px rgb(150, 142, 142);
+  background-color: hsl(221, 100%, 96%);
+  width: 600px;
+  height: 400px;
+  border-radius: 25px;
+  box-shadow: 1px 2px 3px rgb(150, 142, 142);
+  display: flex;
+  
+}
+
+.container-summary {
+ display: grid;
+grid-template-rows: 1fr 1fr;
+ grid: 1fr 1fr;
+ border: 1px solid red;
 }
 
 .container-violet {
-    width: 300px;
-    height: 400px;
-    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-    border-radius: 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    justify-content: center;
+  width: 300px;
+  height: 400px;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  justify-content: space-around;
 }
 
 .container-rounded {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
-    width: 150px;
-    height: 150px;
-    border-radius: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
 }
 
 .container-great {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .container-violet h3 {
- color: hsl(241, 100%, 89%);
- 
+  color: hsl(241, 100%, 89%);
 }
 
 .container-violet h4 {
-    font-weight: 700;
- font-size: 20px;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 .container-violet p {
-    
-    text-align: center;
-    font-size: 18px;
-    color: hsl(241, 100%, 89%);
+  text-align: center;
+  font-size: 18px;
+  color: hsl(241, 100%, 89%);
 }
 
-.span-76{
-    font-size: 45px;
-    font-weight: 700;
+.span-76 {
+  font-size: 45px;
+  font-weight: 700;
 }
 
 .span-100 {
-    font-size: 15px;
-    font-weight: 100;
-    color: hsl(241, 100%, 89%);
+  font-size: 15px;
+  font-weight: 100;
+  color: hsl(241, 100%, 89%);
 }
